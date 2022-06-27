@@ -51,6 +51,6 @@ echo -en "\n<<< Compiling redfang\n"
 tar xfvz redfang.tar.gz
 mv redfang redfang_src
 cd redfang_src
-gcc -lbluetooth fang.c -o fang
+gcc fang.c -o fang -lbluetooth
 cp fang ../redfang
 cd ..
